@@ -1,0 +1,151 @@
+.office-info-area{
+    margin-bottom: 80px;
+    margin-bottom: 5rem;
+}
+.office-info-header,.find-header{
+    max-width: 1064px;
+    max-width: 66.5rem;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+.office-info-header h2{
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin-bottom: 32px;
+    margin-bottom: 2rem;
+}
+.office-info-header p{
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+}
+.office-body{
+    background: url(../img/Shadow.png) no-repeat scroll 0 0 / contain;
+    padding-top: 80px;
+    padding-top: 5rem;
+}
+.office-box{
+    text-align: center;
+}
+.office-icon {
+    background: var(--color-4);
+    height: 50px;
+    width: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50%;
+    color: var(--color);
+    margin: auto;
+}
+.office-icon i{
+    font-size: 38.4px;
+    font-size: 2.4rem;
+}
+.office-deatils h4{
+    margin: 32px 0px;
+    margin: 2rem 0rem;
+}
+.office-deatils li{
+    padding: 8px;
+    padding: .5rem;
+    color: var(--color-2);
+}
+.office-deatils li a{
+    color: var(--color-2);
+}
+.find-area{
+    margin-bottom: 80px;
+    margin-bottom: 5rem;
+}
+.find-header {
+    margin-bottom: 80px;
+    margin-bottom: 5rem;
+}
+.find-header h2{
+    margin-bottom: 32px;
+    margin-bottom: 2rem;
+}
+.find-img{
+    background: url(../img/contact/1.jpg)no-repeat scroll center center/ cover;
+    height: 480px;
+    height: 30rem;
+}
+.mail-area{
+    margin-bottom: 80px;
+    margin-bottom: 5rem;
+}
+.mail-header{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-bottom: 5rem;
+}
+.mail-body{
+    margin-bottom: 80px;
+    margin-bottom: 5rem;
+}
+
+.mail-data label{
+    display: block;
+    padding: 16px 0px;
+    padding: 1rem 0rem;
+}
+label span{
+    color: var(--color-4);
+}
+#name,#email,#message{
+    width: 100%;
+    padding: 16px;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    background: #edf2f6;
+    border-radius: .5rem;
+}
+#message{
+    resize: vertical;
+}
+#message::-webkit-input-placeholder,#name::-webkit-input-placeholder,#email::-webkit-input-placeholder{
+    font-style: italic;
+    font-size: 22.4px;
+    font-size: 1.4rem;
+}
+#message::-moz-placeholder,#name::-moz-placeholder,#email::-moz-placeholder{
+    font-style: italic;
+    font-size: 22.4px;
+    font-size: 1.4rem;
+}
+#message:-ms-input-placeholder,#name:-ms-input-placeholder,#email:-ms-input-placeholder{
+    font-style: italic;
+    font-size: 22.4px;
+    font-size: 1.4rem;
+}
+#message::placeholder,#name::placeholder,#email::placeholder{
+    font-style: italic;
+    font-size: 22.4px;
+    font-size: 1.4rem;
+}
+.btn2{
+    padding: 16px 32px;
+    padding: 1rem 2rem;
+    background:var(--color-4);
+    color: var(--color);
+    display: block;
+    margin: auto;
+    border: none;
+    font-weight: 600;
+    border-radius: 1rem;
+    -webkit-transition: .1s;
+    transition: .1s;
+}
+.btn2:hover{
+    background:var(--color-3);
+    
+}
